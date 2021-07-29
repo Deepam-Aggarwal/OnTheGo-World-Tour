@@ -1,15 +1,15 @@
 ﻿@import url("https://fonts.googleapis.com/css2?family=Gorditas&display=swap");
 
-.container {
+.containerr {
     display: grid;
-    grid-template: "container" 1fr;
+    grid-template: "containerr" 1fr;
     place-items: center;
     place-content: center;
     overflow: hidden;
     max-height: clamp(450px, 50vh, 600px);
 }
 
-    .container > * {
+    .containerr > * {
         grid-area: container;
         max-width: 1000px;
     }
@@ -46,7 +46,7 @@
     opacity: 0.9;
 }
 
-.container {
+.containerr {
     /*  --border: 4px dashed dodgerblue;*/
     position: relative;
     border-top: var(--border);
