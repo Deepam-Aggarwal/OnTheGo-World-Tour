@@ -2,16 +2,16 @@
 
 .containerr {
     display: grid;
-    grid-template: "containerr" 1fr;
+    grid-template: "container" 1fr;
     place-items: center;
     place-content: center;
     overflow: hidden;
-    max-height: clamp(450px, 50vh, 600px);
+    max-height: clamp(800px, 50vh, 600px);
 }
 
     .containerr > * {
         grid-area: container;
-        max-width: 1000px;
+        max-width: 100%;
     }
 
 .title1 {
